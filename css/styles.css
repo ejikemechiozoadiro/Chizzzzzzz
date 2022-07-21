@@ -229,11 +229,11 @@ margin-left: 10px;
     background: #ec3000;
 }
 
+
 .btn--block{
     width: 100%;
     display: inline-block;
 }
-
 
 
 .btn--outline{
@@ -252,4 +252,29 @@ margin-left: 10px;
         .btn{
         font-size: 1.5rem;
         }
-    }
+}
+
+
+
+
+/*Input*/
+.input{
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    color: var(--color-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+
+::placeholder{
+    color: #cdcbd7;
+}
+
+
+@media screen and (min-width:1024px){
+   .input{
+     font-size: 1.5rem;
+}
+}
